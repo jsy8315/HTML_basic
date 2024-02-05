@@ -15,15 +15,36 @@ text-align : center;
 /* 모든 p태그 */
 p {
 text-align : center;
-font-size : 50px
+font-size : 30px;
 }
 
 .lastTextStyle2 {
 color : Brown;
 }
 
+/* #이라고 있는데, class를 쓰는 걸 추천*/
+#special {
+    color : Yellow
+}
+
 .spanStyle {
 letter-spacing : 5px;
 font-family : 'gulim';
 letter-spacing : 10px;
+}
+
+.box {
+    width : 200px;
+    height : 100px;
+    background-color : yellow;
+    margin-left : 30px;
+    padding : 5px;
+    /*border : 10px solid black;*/
+    border-radius : 15px;
+    /* 가운데 정렬 */
+    margin-left : auto;
+    margin-right : auto;
+
+    font-size : 5px;
+    color : red;
 }
