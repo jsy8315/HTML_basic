@@ -49,3 +49,7 @@ letter-spacing : 10px;
     color : white;
     box-shadow: 5px 5px black;
 }
+
+.container {
+    width : 800px; /*속해있는 박스들 빠져나가는 것 방지*/
+}
