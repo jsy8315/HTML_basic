@@ -1,0 +1,39 @@
+<!-- 레이아웃 만들기 2 : 귀찮은 inline-block -->
+<!-- 수업 내용 -->
+<!-- layout1에서 썼던 float, clear 지우고 시작 -->
+<!--display : block : 한 행을 전부 차지-->
+<!--
+    display : inline-block : 내 크기만큼 차지
+    박스 사이 공백을 제거해야되서 귀찮음
+    inline-block 사용시 공백제거 방법1 : left-menu, right 사이 주석처리하기
+    inline-block 사용시 공백제거 방법2 : 부모태그에 font-size : 0px;
+    
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>Document</title>
+        <link href = "css/main2.css" rel = "stylesheet">
+    </head>
+    <body>
+        <div class = "container">
+        <!--<div class = "container style = "font-size : 0px;">-->
+            <div class = "header"></div>
+            <!--inline block 적용하고 left menu, right 사이의 공백을 제거하니까 딱붙네-->
+            <div class = "left-menu"></div><!--
+
+            --><div class = "right">
+                <p>안녕하세용</p><!--main2.css의 left-menu에 vertical-align : top;를 적용해야 이상하게 보이는 게 해결된다-->
+            <!-- 미쳐날뛰는 이유 :
+                글자 쓸때 : baseline이 적용됨
+                근데 baseline이 옆에 존재하면 display : inline-block요소들이
+                baseline 위에 오려고함
+            -->
+            </div>
+            <div class = "footer"></div>
+        </div>
+
+
+    </body>
+</html>
