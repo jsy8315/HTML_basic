@@ -34,5 +34,11 @@
     height : 180px;
     background-color : yellow;
     float : right;
-    
+
 }
+
+p {
+    text-align : left;
+    font-size : 10px;
+    background-color : orange;
+    }
