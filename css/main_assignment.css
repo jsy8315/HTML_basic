@@ -2,43 +2,25 @@
     width : 800px;
 }
 
-.container-left {
-    width : 80%;
-    height : 180px;
-    background-color : aquamarine;
-    float : left;
+.blog-content {
+    width: 80%;
+    height: 200px;
+    background: #eee;
+    float: left;
 }
 
-.container-left-header {
-    height : 30%;
-    background-color : red;
+.blog-img {
+    width: 20%;
+    height: 200px;
+    background: yellow;
+    float: right;
 }
 
-.container-left-header-leftPic {
-    width : 10%;
-    background-color : black;
+.blog-profile {
+    width: 50px;
+    float: left;
 }
 
-.container-left-body {
-    height : 60%;
-    background-color : green;
+.blog-name {
+    float: left;
 }
-
-.container-left-footer {
-    height : 10%;
-    background-color : grey;
-}
-
-.container-right {
-    width : 20%;
-    height : 180px;
-    background-color : yellow;
-    float : right;
-
-}
-
-p {
-    text-align : left;
-    font-size : 10px;
-    background-color : orange;
-    }
