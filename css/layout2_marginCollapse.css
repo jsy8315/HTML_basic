@@ -1,6 +1,6 @@
 .main-background {
     width : 100%;
-    height : 800px;
+    height : 600px;
     background-image: url(../img/shoes.jpg);  /* url 여러개 써서 겹치기도 가능 */
     /* background-size : cover; : 배경이 짤려도 상관없으니 빈 공간 없이 배경으로 꽉 채워라 */
     /* background-size : contain; : 배경이 짤리지 않게 꽉 채워주세요 */
@@ -15,7 +15,7 @@
 .main-title {
     color : white;
     font-size : 80px;
-    margin-top : 0px;
+    margin-top : 10px;
     margin-bottom : 0px;
     padding-left: 50px;
 }
@@ -38,4 +38,17 @@
 .bottomnav {
     float : right;
     margin-right : 10px;
+}
+
+p {
+    margin-top : 40px;
+    margin-bottom : 40px;
+}
+
+a:link {
+    color : brown;
+}
+
+a:visited {
+    color : black;
 }
