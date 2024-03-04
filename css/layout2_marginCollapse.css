@@ -1,0 +1,41 @@
+.main-background {
+    width : 100%;
+    height : 800px;
+    background-image: url(../img/shoes.jpg);  /* url 여러개 써서 겹치기도 가능 */
+    /* background-size : cover; : 배경이 짤려도 상관없으니 빈 공간 없이 배경으로 꽉 채워라 */
+    /* background-size : contain; : 배경이 짤리지 않게 꽉 채워주세요 */
+    background-size : cover;
+    background-repeat : no-repeat;
+    background-position : center;
+    background-attachment : fixed; /* 스크롤 시 배경 위치 조정 가능 */
+    filter : brightness(100%);
+    padding : 1px;
+}
+
+.main-title {
+    color : white;
+    font-size : 80px;
+    margin-top : 0px;
+    margin-bottom : 0px;
+    padding-left: 50px;
+}
+
+.main-content {
+    color : white;
+    font-size : 30px;
+    padding-left: 50px;
+}
+
+.bottomnav li {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.bottomnav {
+    float : right;
+    margin-right : 10px;
+}
