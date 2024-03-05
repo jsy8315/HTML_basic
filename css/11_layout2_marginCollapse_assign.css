@@ -32,7 +32,8 @@
     background : grey;
     border : none;
     position : fixed; /* position을 부여하면 좌표 이동 가능 */
-    top : 0px;
+    top : 100px;
+    left : 100px;
 }
 
 p {
