@@ -31,7 +31,7 @@
 .main-button {
     padding : 15px;
     font-size : 20px;
-    background : grey;
+    background : white;
     border : none;
     position : absolute; /* position을 부여하면 좌표 이동 가능 */
     /* position : absolute 준 요소 가운데 정렬하려면 */
@@ -39,7 +39,8 @@
     right : 0;
     margin : auto;
     width : 150px;
-    bottom : 5px;
+
+    bottom : 90px;
 }
 
 p {
@@ -53,4 +54,21 @@ a:link {
 
 a:visited {
     color : black;
+}
+
+.bottom-content {
+    background : grey;
+    background-position : center;
+    left : 0;
+    right : 0;
+    margin : auto;
+    width : 900px;
+    text-align : center;
+    padding : 1px;
+    position : relative;
+    top : 100px;
+}
+
+.bottom-content-content {
+    margin : 20px;
 }
