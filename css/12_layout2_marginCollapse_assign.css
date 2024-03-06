@@ -1,6 +1,18 @@
+/* 12. position 숙제 & 반응형 width & box - sizing */
+div {
+    box-sizing : border-box;
+}
+
+body {
+    margin : 0px;
+}
+
+/* 검색키워드 : normalize.css */
+
+
 .main-background {
     width : 100%;
-    height : 100%;
+    height : 800px;
     background-image: url(../img/shoes.jpg);  /* url 여러개 써서 겹치기도 가능 */
     /* background-size : cover; : 배경이 짤려도 상관없으니 빈 공간 없이 배경으로 꽉 채워라 */
     /* background-size : contain; : 배경이 짤리지 않게 꽉 채워주세요 */
@@ -40,7 +52,9 @@
     margin : auto;
     width : 150px;
 
-    bottom : 90px;
+    bottom : 100px;
+
+    z-index : 10;
 }
 
 p {
@@ -65,9 +79,20 @@ a:visited {
     width : 900px;
     text-align : center;
     padding : 1px;
+
     position : relative;
-    top : 100px;
+    top : -50px;
+
+    z-index : 5;
+
+    width : 80%; /* 부모 width의 80% */
+    max-width : 900px;
+    min-width : 600px;
+
+    /* width가 padding, border를 포함함 */
+    box-sizing : border-box;
 }
+
 
 .bottom-content-content {
     margin : 20px;
