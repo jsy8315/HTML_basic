@@ -33,17 +33,25 @@ body {
     border-radius: 5px;
 }
 
-input[type = password] {
-    padding : 20px;
+input[type = email] {
+    padding : 1px;
     font-size : 20px;
-    border : 2px solid black;
+    border : 1px solid #eee;
     border-radius: 5px;
+    width : 100%;
 }
 
 .sub-form-email-title {
     display : block;
+    width : 100%;
+    margin-top : 10px;
+    margin-bottom : 10px;
 }
 
-.input { 
+.input[type = email] { 
     width : 100%;
+}
+
+.form {
+    display : block;
 }
