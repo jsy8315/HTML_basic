@@ -41,6 +41,14 @@ input[type = email] {
     width : 100%;
 }
 
+input[type = text] {
+    padding : 1px;
+    font-size : 20px;
+    border : 1px solid #eee;
+    border-radius: 5px;
+    width : 100%;
+}
+
 .sub-form-email-title {
     display : block;
     width : 100%;
@@ -48,10 +56,47 @@ input[type = email] {
     margin-bottom : 10px;
 }
 
-.input[type = email] { 
-    width : 100%;
+.sub-form-First-name{
+    float : left;
+    width : 45%;
+    margin-top : 10px;
+    margin-bottom : 10px;
 }
 
-.form {
-    display : block;
+.sub-form-Last-name {
+    float : right;
+    width : 45%;
+    margin-top : 10px;
+    margin-bottom : 10px;
 }
+
+.sub-form-Message {
+    height : 200px;
+}
+
+input[type = text-message] {
+    padding : 1px;
+    font-size : 20px;
+    border : 1px solid #eee;
+    border-radius: 5px;
+    width : 100%;
+    height : 100px;
+}
+
+.sub-form-button-subcribe {
+    float : left;
+    position : relative;
+    top : 5px;
+
+}
+
+.sub-form-button-send {
+    float : right;
+}
+
+button[type = submit] {
+    font-size : 20px;
+    background : yellow;
+    width : 140px;
+}
+
