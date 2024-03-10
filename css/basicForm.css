@@ -1,0 +1,15 @@
+div {
+    box-sizing : border-box;
+}
+
+input {
+    box-sizing : border-box;
+}
+
+textarea {
+    box-sizing : border-box;
+}
+
+body {
+    margin : 0px;
+}

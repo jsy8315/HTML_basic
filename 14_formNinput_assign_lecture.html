@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>Document</title>
+        <link href = "css/normalize.css" rel = "stylesheet">
+        <link href = "css/14_formNinput_assign_lecture.css" rel = "stylesheet">
+    </head>
+    <body>
+        <div class = "form-background">
+            <div class = "form-white">
+                <form>
+                    <div class = "w-100">
+                        <h3>Contact Us</h3>
+                        <p>Your Email</p>
+                        <input class = "form-input" placeholder = "email@memail.com" type = "email">
+                    </div>
+                    <div class = "w-50">
+                        <p>First Name</p>
+                        <input class = "form-input" type = "text">
+                    </div>
+                    <div class = "w-50">
+                        <p>Last Name</p>
+                        <input class = "form-input" type = "text">
+                    </div>
+                    <!-- float쓰고 나면 뒤에 div 만들어서 clear : both 적용하기 -->
+                    <div style = "clear : both"></div>
+
+                    <!-- 여기서 고수와 초보의 차이가 드러남 : 재사용 가능한 class -->
+                    <div class = "w-100">
+                        <p>Message</p>
+                        <textarea class = "form-input"></textarea>
+                    </div>
+
+                    <div>
+                        <input id = "sub" type = "checkbox">
+                        <label for = "sub">Subscribe</label>
+                        <!-- input의 id를 누르면 label도 누른거로 쳐줌 -->
+                        <button>SEND</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

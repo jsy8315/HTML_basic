@@ -1,0 +1,53 @@
+div,textarea {
+    box-sizing : border-box;
+}
+
+/* input {
+    box-sizing : border-box;
+} */
+
+body {
+    margin : 0px;
+}
+
+
+
+.form-background {
+    background-color : black;
+    padding : 30px;
+}
+
+.form-white {
+    background-color : white;
+    padding : 30px;
+    width : 80%;
+    max-width : 600px;
+    margin : auto;
+}
+
+.form-input {
+    padding : 10px;
+    font-size : 20px;
+    border : 1px solid black;
+    border-radius : 5px;
+    width : 100%;
+}
+
+/* 실제 width는 100% + 20px임, 그래서 width 100%라 해도 삐져나감 */
+/* 따라서 border-box 필요 */
+input {
+    box-sizing : border-box;
+}
+
+.w-50 {
+    width : 50%;
+    float : left;
+    padding : 10px;
+}
+
+.w-100 {
+    width : 100%;
+    padding : 10px;
+}
+
+
