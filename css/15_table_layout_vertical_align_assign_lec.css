@@ -28,3 +28,38 @@
 .cart-table th:nth-child(2) {
     width : 400px
 }
+
+.btn {
+    padding : 15px;
+    font-size : 20px;
+    border : none;
+    border-radius : 10px;
+    background-color : coral;
+    color : white;
+    cursor : pointer;
+}
+
+.btn:hover {
+    background-color :chocolate;
+}
+.btn:focus {
+    background-color : red;
+}
+.btn:active {
+    background-color : yellow;
+    border : 2px solid blue;
+}
+
+.input-test {
+    font-size : 20px;
+}
+.input-test:focus {
+    border-bottom : 10px solid red;
+}
+
+.custom-link:link {
+    color : black;
+}
+.custom-link:visited {
+    color : white;
+}
