@@ -1,0 +1,96 @@
+.font-small {
+    font-size : 12px;
+}
+
+.font-md {
+    font-size : 16px;
+}
+
+.font-lg {
+    font-size : 20px;
+}
+
+
+.cart-background {
+    width : 100%;
+    background-color : #c2d3de;
+    padding : 30px;
+}
+
+.cart-table {
+    width : 100%;
+    max-width : 700px;
+    min-width : 400px;
+    margin : auto;
+    background : white;
+    border-radius : 10px;
+    border-collapse : collapse;
+}
+
+.cart-table td, th {
+    padding : 15px;
+    border-bottom : 1px solid #c2d3de;
+}
+
+.cell-long {t
+    width : 700px
+}
+
+/* 위처럼 class를 따로 주는게 귀찮을때는? nth-child 사용 */
+
+.cart-table th:nth-child(2) {
+    width : 400px
+}
+
+.btn {
+    padding : 15px;
+    font-size : 20px;
+    border : none;
+    border-radius : 10px;
+    background-color : coral;
+    color : white;
+    cursor : pointer;
+}
+
+.btn:hover {
+    background-color :chocolate;
+}
+.btn:focus {
+    background-color : grey;
+}
+.btn:active {
+    background-color : yellow;
+    border : 2px solid blue;
+}
+
+.input-test {
+    font-size : 20px;
+}
+.input-test:focus {
+    border-bottom : 10px solid red;
+}
+
+.custom-link:link {
+    color : black;
+}
+.custom-link:visited {
+    color : white;
+}
+
+.main-btn {
+    padding : 15px;
+    /* font-size : 20px; */
+    border : none;
+    border-radius : 10px;
+    background-color : coral;
+    color : white;
+    cursor : pointer;
+}
+
+.bg-red:focus {
+    background-color : red;
+}
+
+.bg-blue:focus {
+    background-color : blue;
+}

@@ -7,6 +7,35 @@
         <link href = "css/17_class_naming_OOCSS_BEM.css" rel = "stylesheet">
     </head>
     <body>
-
+    <div class = "cart-background">
+        <h3>Your Shopping Cart</h3>
+        <table class = "cart-table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Item</th>
+                    <th>Amount</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src = "../img/css_01.jpeg" width = "200px"></td>
+                    <td>카메라</td>
+                    <td>1</td>
+                    <td>7000</td>
+                    <td>7000</td>
+                </tr>
+                <tr>
+                    <td colspan = "5"; style = "text-align : right">총가격 : 7000</td>
+                </tr>
+            </tbody>
+        </table>
+        <button class="main-btn bg-red font-small">구매하기</button>
+        <button class="main-btn bg-blue font-md">더둘러보고올게요</button>
+        <input class = "input-test">
+        <a href = "#" class = "custom-link">지옥가기</a>
+    </div>
     </body>
 </html>
