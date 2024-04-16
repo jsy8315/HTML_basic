@@ -107,5 +107,19 @@ a:visited {
 }
 
 p, h4, h3, h2, h1, span {
-    transform : rotate(10deg)
+    transform : rotate(0.05deg)
+}
+
+.navbar {
+    display : flex;
+    height : 100px;
+    align-items : center;
+    background-color : pink;
+}
+
+.navbar-box {
+    width : 200px;
+    
+    background-color : pink;
+    align-items : center;
 }
