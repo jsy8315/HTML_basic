@@ -121,5 +121,5 @@ p, h4, h3, h2, h1, span {
     width : 200px;
     
     background-color : pink;
-    align-items : center;
+    /* align-items : center; */
 }
