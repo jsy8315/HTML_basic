@@ -123,3 +123,23 @@ p, h4, h3, h2, h1, span {
     background-color : pink;
     /* align-items : center; */
 }
+
+.test {
+    /* width : 100px; */
+    /* width : 10rem; */
+    width : 50vw;
+    height : 30vh;
+    background : grey;
+}
+
+@media screen and (max-width : 1200px) {
+    .main-title {
+        font-size : 100px;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .main-title {
+        font-size : 200px;
+    }
+}
