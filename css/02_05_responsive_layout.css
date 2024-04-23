@@ -132,47 +132,42 @@ p, h4, h3, h2, h1, span {
     background : grey;
 }
 
+
+
+.product-container {
+    /* display : flex; */
+    width : 80%;
+    max-width : 1000px;
+    margin : auto;
+    margin-top : 50px;
+    margin-bottom : 50px;
+    background-color : pink;
+}
+
+.product-container div { 
+    float : left;
+    width : 25%;
+    background-color : pink;
+    text-align: center;
+}
+
 @media screen and (max-width : 1200px) {
     .main-title {
         font-size : 100px;
     }
-}
-
-@media screen and (max-width : 600px) {
-    .main-title {
-        font-size : 200px;
+    .product-container {
+        max-width: 600px;
     }
-}
-
-.bottom-menu {
-    display : flex;
-    height : 150px;
-    align-items: center;
-    text-align : center;
-    background-color : pink;
-}
-
-.bottom-menu-content { 
-    width : 25%;
-    background-color : grey;
-    margin : 3px;
-    
-}
-
-@media screen and (max-width : 1200px) {
-    .bottom-menu {
-        background-color: yellow;
-        flex-wrap: wrap;
-    }
-    .bottom-menu-content {
-        width : 25%;
+    .product-container div {
+        width : 50%;
     }
 }
 
 @media screen and (max-width : 768px) {
-    .bottom-menu {
+    .main-title {
+        font-size : 200px;
+    }
+    .product-container div {
         width : 100%;
-        flex-direction : column;
-        height : 350px;
     }
 }
