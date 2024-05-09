@@ -1,0 +1,119 @@
+<!--12. position 숙제 & 반응형 width & box - sizing-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>Document</title>
+        <link href = "css/02_08_transition_css_animation.css" rel = "stylesheet">
+        <link href = "css/normalize.css" rel = "stylesheet">
+        <!--[if lt IE 9]>
+        <link href="css/ie.css" type="text.css"
+        rel="stylesheet"/>
+        <![endif]-->
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <nav class = "navbar">
+            <div class = "navbar-box" 
+            style = "background-image : url('../lion.png');
+                     background-size : cover;
+                    ">1
+            </div>
+            <div class = "navbar-box" style="flex-grow : 2">2</div>
+            <div class = "navbar-box">Hogoo coming</div>
+        </nav>
+
+        <!-- <div class = "test">
+
+        </div> -->
+
+
+        <div class = "main-background">
+     
+            <h4 class = "main-title">
+                <p>Hey you.</p>
+                <p>한번 신어봐유.</p>
+            </h4>
+            <div class = "main-content">
+                <p>
+                    흔들리지 않는 편안함, 시몬슈즈.<br/>
+                    무좀균도 솔솔 잠들게 만드는 포근함<br/>
+                    며느리발톱도 눈치채지 못 할 정도의 편안한 착용감<br/>
+                    이 모든 것을 한 달 199,900,000원에.<br/>
+                </p>
+            </div>
+            <button class = "main-button"><!-- 중복피하려면 class 이름에 접두어 붙여서 관리 ex) main ~ -->
+                구매하기<br>
+                (지금 호갱되기)
+            </button>
+        </div>
+        <div class = "bottom-content">
+                <h2>우리는 이렇게 신발을 만듭니다</h2>
+                <div class = "bottom-content-content">
+                        동대문, 남대문, 서대문 가리지 않고 일단 신발을 사모읍니다. 가장 애용하는 곳은 아파트 헌 옷 수거함이죠.<br>
+                        이렇게 모은 신발들을 전부 수작업으로 택갈이를 해, 새 신발처럼 만듭니다. 택갈이 경력 도합 20개월의, 장인의 솜씨입니다.<br>
+                        환경도 생각하고, 수제 작업을 통한 장인 정신의 맥도 잇는 우리는, 헤이유신어봐유 입니다. <br>
+                </div>
+        </div>    
+
+        <br>
+
+        <div class = "bottom-content" style = "padding : 50px">
+            <h2>우리는 이렇게 신발을 만든다고.</h2>
+            <div class = "bottom-content-content">
+                    동대문, 남대문, 서대문 가리지 않고 일단 신발을 사모읍니다. 가장 애용하는 곳은 아파트 헌 옷 수거함이죠.<br>
+                    이렇게 모은 신발들을 전부 수작업으로 택갈이를 해, 새 신발처럼 만듭니다. 택갈이 경력 도합 20개월의, 장인의 솜씨입니다.<br>
+                    환경도 생각하고, 수제 작업을 통한 장인 정신의 맥도 잇는 우리는, 헤이유신어봐유 입니다, 라고 똑바로 읽어야지.<br>
+            </div>
+        </div> 
+        
+        <div class = "product-container">
+            <div>
+                <i class="fa-solid fa-shop fa-3x"></i>
+                <h3>Fast Shipping</h3>
+                lorem ipsum
+            </div>
+            <div>
+                <i class="fa-solid fa-bell-concierge" style="font-size: 30px;"></i>
+                <h3>Good Service</h3>
+                lorem ipsum
+            </div>
+            <div>
+                <i class="fa-solid fa-money-bill fa-2x"></i>
+                <h3>Free Coupons</h3>
+                lorem ipsum
+            </div>
+            <div>
+                <i class="fa-brands fa-product-hunt fa-3x"></i>
+                <h3>New Products</h3>
+                lorem ipsum
+            </div>
+            <div style = "float : none; clear : both;">
+
+            </div>
+        </div>
+
+        <div class="shop-bg">
+            <div class="shop-container">
+                <div class="shop-item">
+                    <div style="position: relative">
+                        <div class="overlay"></div>
+                        <img src="img/shoes01.jpeg">
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <img src="img/shoes02.jpeg">
+                </div>
+                <div class="shop-item">
+                    <img src="img/shoes03.jpeg">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
